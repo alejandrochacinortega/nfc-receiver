@@ -1,0 +1,20 @@
+{
+  "name": "ngCordova-nfc",
+  "homepage": "https://github.com/konstantinkrassmann/ngCordova-nfc",
+  "authors": [
+    "Konstantin Krassmann <kkonstantin@gmx.de>"
+  ],
+  "description": "ngCordova Wrapper for cordova-plugin-nfc feature",
+  "main": "nfc.js",
+  "license": "MIT",
+  "_release": "58e4ec4459",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "58e4ec4459e478f8a5b5436421a3665ed8aaee30"
+  },
+  "_source": "git://github.com/konstantinkrassmann/ngCordova-nfc.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/konstantinkrassmann/ngCordova-nfc",
+  "_direct": true
+}

@@ -1,0 +1,12 @@
+<ion-view view-title="Receipts">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="receipt in vm.receipts" ui-sref="app.receiptSingle({receiptId: receipt.receiptId})">
+                {{receipt.receiptId}}
+                {{receipt.store}}
+                {{receipt.amount}}
+                {{receipt.location}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,68 @@
+<ion-view view-title="Home">
+    <ion-content>
+        <div class="list card" ng-show="!vm.info">
+            <div class="item text-center">
+                <span class="ion-information-circled info-icon"> Info</span>
+            </div>
+
+            <div class="item item-body">
+                <img src="img/nfc.png">
+                <h3 style="text-align:center">Set your phone close to the NFC device to proceed the payment</h3>
+            </div>
+        </div>
+
+        <div class="list card" ng-show="vm.info">
+            <div class="item text-center">
+                <span class="ion-information-circled info-icon"> Info</span>
+                <h4>{{vm.data.store}}</h4>
+            </div>
+
+
+            <div class="item item-body" ng-repeat="data in vm.single">
+                <h2>{{data.store}}</h2>
+                <h2>{{data.amount}}</h2>
+                <p>{{data.tlf}}</p>
+                <p>{{data.location}}</p>
+            </div>
+
+            <button class="item tabs button button-balanced" ng-click="vm.listAccess()">
+                <i class="ion-checkmark-round"></i>  Save
+            </button>
+
+
+            <div class="card">
+                <div class="item item-text-wrap">
+                    <dl>
+                        <dt>Tag Id</dt>
+                        <dd>{{ vm.array.id  }}</dd>
+                        <dt>Tag Type</dt>
+                        <dd>{{ vm.array.type }}</dd>
+                        <!-- TODO techTypes -->
+                        <dt>Max Size</dt>
+                        <dd>{{ vm.array.maxSize }} bytes</dd>
+                        <dt>Is Writable</dt>
+                        <dd>{{ vm.array.isWritable }}</dd>
+                        <dt>Can Make Read Only</dt>
+                        <dd>{{ vm.array.canMakeReadOnly }}</dd>
+                    </dl>
+                    <div class="card" ng-repeat="record in vm.array.id">
+                        <div class="item item-divider">
+                            Id: {{record}} <br/>
+                        </div>
+                        <div class="item item-text-wrap">
+                            <dl>
+                                <dt>TNF</dt>
+                                <dd>{{ record.tnf }}</dd>
+                                <dt>Record Type</dt>
+                                <dd>{{ record.type }}</dd>
+                                <dt ng-if="record.id">Record Id</dt>
+                                <dd ng-if="record.id">{{ record.id }}</dd>
+                                <dt>Payload</dt>
+                                <dd>{{ record }}</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </ion-content>
+</ion-view>

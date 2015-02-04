@@ -1,0 +1,26 @@
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes.dex : \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$1.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$2.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$3.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$4.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$5.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$6.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$7.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$8.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$9.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/Util.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$3.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/BuildConfig.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/CordovaApp.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/R$attr.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/R$drawable.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/R$string.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/R$xml.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/com/ionicframework/supermarketapp338070/R.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/org/apache/cordova/api/Dummy.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/ant-build/dexedLibs/classes-b7245041189976d9aacedf827bb78de3.jar \
