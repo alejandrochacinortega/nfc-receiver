@@ -51,6 +51,8 @@
 /Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/app/receipts/receiptsList.html \
 /Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/app/receipts/receiptsListController.js \
 /Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/app/service/common.services.js \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/app/service/data.xml \
+/Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/app/service/jsonConverter.js \
 /Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/app/service/mockDataService.js \
 /Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/css/style.css \
 /Users/omar/Desktop/NITH/Mobile Computing/NFC.test-service-receiver/platforms/android/assets/www/img/ionic.png \

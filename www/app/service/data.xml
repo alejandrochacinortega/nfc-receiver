@@ -1,0 +1,20 @@
+
+
+    <receipt>
+        <supermarket>ICA Supermarket</supermarket>
+        <amount>ICA Supermarket</amount>
+        <phone>ICA Supermarket</phone>
+        <items>
+            <item_one>
+                <name>Milk</name>
+                <amount>20 NOK</amount>
+            </item_one>
+            <item_two>
+                <name>Pizza</name>
+                <amount>60 NOK</amount>
+            </item_two>
+        </items>
+        <location>Karenlyst Allé 58, 0277 Oslo</location>
+    </receipt>
+
+

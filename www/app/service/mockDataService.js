@@ -10,17 +10,36 @@ function MockDataService($rootScope, $ionicPlatform, $cordovaNfc, $cordovaNfcUti
         {
             receiptId: "1",
             store: 'ICA',
-            amount: '20NOK',
+            amount: '80NOK',
+            "items": [
+                {
+                    "name": "Milk",
+                    "price": "20 NOK"
+                },
+
+                {
+                    "name": "Pizza",
+                    "price": "60 NOK"
+                }],
             location: 'Oslo',
             tlf: '24 11 61 70'
         },
-
         {
             receiptId: "2",
             store: 'Meny',
             amount: '100NOK',
             location: 'Oslo',
-            tlf: '24 11 61 70'
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Butter",
+                    "price": "40 NOK"
+                },
+
+                {
+                    "name": "Pizza Grandiosa",
+                    "price": "60 NOK"
+                }]
         },
 
         {
@@ -28,23 +47,158 @@ function MockDataService($rootScope, $ionicPlatform, $cordovaNfc, $cordovaNfcUti
             store: 'Kiwi',
             amount: '200NOK',
             location: 'Oslo',
-            tlf: '24 11 61 70'
-        },
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Meet",
+                    "price": "60 NOK"
+                },
 
+                {
+                    "name": "Cheese",
+                    "price": "140 NOK"
+                }],
+        },
         {
             receiptId: "4",
             store: 'RIMI',
             amount: '210NOK',
             location: 'Oslo',
-            tlf: '24 11 64 70'
-        },
+            tlf: '24 11 64 70',
+            "items": [
+                {
+                    "name": "Chicken",
+                    "price": "100 NOK"
+                },
 
+                {
+                    "name": "Pizza",
+                    "price": "110 NOK"
+                }]
+        },
         {
             receiptId: "5",
             store: 'Kiwi',
             amount: '100NOK',
             location: 'Oslo',
-            tlf: '21 11 61 70'
+            tlf: '21 11 61 70',
+            "items": [
+                {
+                    "name": "Potatoes",
+                    "price": "50 NOK"
+                },
+
+                {
+                    "name": "Milk",
+                    "price": "50 NOK"
+                }],
+        },
+        {
+            receiptId: "6",
+            store: 'ICA',
+            amount: '120NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Spinach",
+                    "price": "20 NOK"
+                },
+                {
+                    "name": "Doritos",
+                    "price": "40 NOK"
+                },
+                {
+                    "name": "Shampoo",
+                    "price": "60 NOK"
+                }]
+        },
+        {
+            receiptId: "7",
+            store: 'ICA',
+            amount: '20NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Milk",
+                    "price": "20 NOK"
+                }]
+        },
+        {
+            receiptId: "8",
+            store: 'KIWI',
+            amount: '50NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Milk",
+                    "price": "20 NOK"
+                },
+
+                {
+                    "name": "Pizza",
+                    "price": "30 NOK"
+                }]
+        },
+        {
+            receiptId: "9",
+            store: 'REMA 1000',
+            amount: '28NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Milk",
+                    "price": "20 NOK"
+                },
+
+                {
+                    "name": "Chocolate",
+                    "price": "8 NOK"
+                }]
+        },
+        {
+            receiptId: "10",
+            store: 'ICA',
+            amount: '20NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Milk",
+                    "price": "20 NOK"
+                }]
+        },
+        {
+            receiptId: "11",
+            store: 'ICA',
+            amount: '220NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Fish",
+                    "price": "120 NOK"
+                },
+
+                {
+                    "name": "Pizza",
+                    "price": "100 NOK"
+                }]
+        },
+        {
+            receiptId: "12",
+            store: 'RIMI',
+            amount: '20NOK',
+            location: 'Oslo',
+            tlf: '24 11 61 70',
+            "items": [
+                {
+                    "name": "Persille",
+                    "price": "20 NOK"
+                }]
         }
     ];
 

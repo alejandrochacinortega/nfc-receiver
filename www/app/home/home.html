@@ -26,43 +26,8 @@
             </div>
 
             <button class="item tabs button button-balanced" ng-click="vm.listAccess()">
-                <i class="ion-checkmark-round"></i>  Save
+                <i class=""></i>  Send to device
             </button>
-
-
-            <div class="card">
-                <div class="item item-text-wrap">
-                    <dl>
-                        <dt>Tag Id</dt>
-                        <dd>{{ vm.array.id  }}</dd>
-                        <dt>Tag Type</dt>
-                        <dd>{{ vm.array.type }}</dd>
-                        <!-- TODO techTypes -->
-                        <dt>Max Size</dt>
-                        <dd>{{ vm.array.maxSize }} bytes</dd>
-                        <dt>Is Writable</dt>
-                        <dd>{{ vm.array.isWritable }}</dd>
-                        <dt>Can Make Read Only</dt>
-                        <dd>{{ vm.array.canMakeReadOnly }}</dd>
-                    </dl>
-                    <div class="card" ng-repeat="record in vm.array.id">
-                        <div class="item item-divider">
-                            Id: {{record}} <br/>
-                        </div>
-                        <div class="item item-text-wrap">
-                            <dl>
-                                <dt>TNF</dt>
-                                <dd>{{ record.tnf }}</dd>
-                                <dt>Record Type</dt>
-                                <dd>{{ record.type }}</dd>
-                                <dt ng-if="record.id">Record Id</dt>
-                                <dd ng-if="record.id">{{ record.id }}</dd>
-                                <dt>Payload</dt>
-                                <dd>{{ record }}</dd>
-                            </dl>
-                        </div>
-                    </div>
-                </div>
         </div>
     </ion-content>
 </ion-view>
